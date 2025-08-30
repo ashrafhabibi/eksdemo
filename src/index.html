@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Simple  App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    </head>
+
+    <body>
+        <div >
+            <div >
+                <h1>Welcome to the EKS cluster demo App</h1>
+                <h2>Congratulations</h2>
+                <p>Your nginx application is now running now</p>
+                <p>The Docker container is running on eks cluster </p>
+                <h2>All Properties</h2>
+
+<div id="demo"></div>
+
+
+
+            </div>
+        </div>
+        <script>
+            let text = "<p>Browser CodeName: " + navigator.appCodeName + "</p>" +
+            "<p>Browser Name: " + navigator.appName + "</p>" +
+            "<p>Browser Version: " + navigator.appVersion + "</p>" +
+            "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>" +
+            "<p>Browser Language: " + navigator.language + "</p>" +
+            "<p>Browser Online: " + navigator.onLine + "</p>" +
+            "<p>Platform: " + navigator.platform + "</p>" +
+            "<p>User-agent header: " + navigator.userAgent + "</p>";
+            
+            document.getElementById("demo").innerHTML = text;
+            </script>
+        
+    </body>
+
+</html>
